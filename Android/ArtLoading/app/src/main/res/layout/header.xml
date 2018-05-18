@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@color/headerBackground"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/buttonAccount"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/headerBackground"
+        android:scaleType="centerCrop"
+        android:tint="@color/headerIcon"
+        app:srcCompat="@drawable/ic_account_circle_white_48px" />
+
+    <ImageButton
+        android:id="@+id/buttonHome"
+        android:layout_width="90dip"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/headerBackground"
+        android:scaleType="centerCrop"
+        android:tint="@color/headerIcon"
+        app:srcCompat="@drawable/logo"
+        />
+
+    <ImageButton
+        android:id="@+id/buttonSettings"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/headerBackground"
+        android:scaleType="centerCrop"
+        android:tint="@color/headerIcon"
+        app:srcCompat="@drawable/ic_settings_white_48px" />
+
+</RelativeLayout>

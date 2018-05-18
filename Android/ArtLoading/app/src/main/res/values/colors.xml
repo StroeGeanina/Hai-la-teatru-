@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dcdcdc</color>
+    <color name="colorPrimaryDark">#7b7b7b</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Header-->
+    <color name="headerBackground">#4b4b4b</color>
+    <color name="headerIcon">#ffffff</color>
+
+    <!--Homepage + listview-->
+    <color name="background">#acacac</color>
+
+
+
+    <color name="blue">#00abea</color>
+    <color name="white">#ffffff</color>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ArtLoading</string>
+    <string name="google_place_api">AIzaSyDRA6MhMNxv2TR-FGQD3R8lDFKZeyEpLMU</string>
+
+    <string name="facebook_app_id">956787467795037</string>
+    <string name="fb_login_protocol_scheme">fb956787467795037</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
